@@ -8,6 +8,8 @@ obj/
 
 # VS Code
 .vscode/
+./vs
 
 # Logs
 *.log
+/backend/.vs/StatusApi.slnx/DesignTimeBuild
