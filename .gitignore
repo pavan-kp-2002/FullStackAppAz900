@@ -1,0 +1,13 @@
+# Node
+node_modules/
+build/
+
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
