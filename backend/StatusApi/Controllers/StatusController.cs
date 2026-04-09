@@ -10,7 +10,7 @@ namespace StatusApi.Controllers
         public IActionResult GetHello()
         {
             Console.WriteLine("Hello Endpoint Called");
-            return Ok("Hello from .NET Backend🚀");
+            return Ok("Hello from Updated .NET Backend🚀");
         }
 
         [HttpGet("time")]
