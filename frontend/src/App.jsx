@@ -36,7 +36,10 @@ function App() {
       <h1 className="title">Status Dashboard</h1>
 
       <div className="api-section">
-        <button className="button-80s" onClick={() => callApi("hello", setMessage)}>
+        <button
+          className="button-80s"
+          onClick={() => callApi("hello", setMessage)}
+        >
           Get Hello
         </button>
         <p className="result-text">{message}</p>
@@ -50,7 +53,10 @@ function App() {
       </div>
 
       <div className="api-section">
-        <button className="button-80s" onClick={() => callApi("env", setEnv, true)}>
+        <button
+          className="button-80s"
+          onClick={() => callApi("env", setEnv, true)}
+        >
           Get Environment
         </button>
         {env && typeof env === "object" && (
@@ -65,7 +71,7 @@ function App() {
         )}
       </div>
 
-      {loading && <p className="loading-text">Loading...</p>}
+      {loading && <p className="loading-text">Loading...v2</p>}
     </div>
   );
 }
