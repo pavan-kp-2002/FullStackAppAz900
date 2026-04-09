@@ -71,7 +71,7 @@ function App() {
         )}
       </div>
 
-      {loading && <p className="loading-text">Loading...v2</p>}
+      {loading && <p className="loading-text">Loading...v3</p>}
     </div>
   );
 }
